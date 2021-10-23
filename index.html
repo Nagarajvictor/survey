@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <style>
+            body{
+                background-image: url("bk.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+                height:100%;
+                
+            }
+            h1{
+                margin-top: 40px;
+                padding-top: 30px;
+            }
+            table{
+                
+                padding-left:27%;
+            }
+            .area{
+                height:30px;
+            }
+            .n1{
+                font-size: 30px;
+            }
+            .checkbox{
+                padding-top: 5px;
+                padding-left: 5px;
+            }
+            button{
+                color: rgb(8, 7, 7);
+                background-color: rgb(241, 241, 138);
+                width: 100px;
+                height: 40px;
+            }
+            div{
+                font-size: 50px;
+            }
+            p{
+                display:none;
+            }
+            div:hover p{
+                display:inline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-style: italic;text-align: center;">Help us with your feedback</h1>
+        <form>
+            <table>
+                <tr>
+                    <td class="n1"><label for="name">Name:</label></td>
+                    <td class="area"><input type="text" id="name" placeholder="Your sweet name" size="40" required/></td>
+                </tr>
+                <tr>
+                    <td class="n1"><label for="email" >Email:</label></td>
+                    <td class="area"><input type="email" id="email" size="40" required></td>
+                </tr>
+                <tr>
+                    <td class="n1"><label for="mobile">Phone Number:</label></td>
+                    <td class="area"><input type="tel" id="mobile" size="40" required> </td>
+                </tr>
+                <tr>
+                <td class="n1"><label for="dish">What did you order?</label></td>
+                <td id="area" class="area"><textarea id="dish" rows="3" cols="30" required></textarea></td>
+                </tr>
+                <tr>
+                    <td class="n1"><label for="date">Date:</label></td>
+                    <td class="area"><input type="date" id="date" size="40" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="takeout" class="checkbox"><label for="takeout">Take out</label>
+                        <input type="checkbox" id="breakfast" class="checkbox"><label for="breakfast">Breakfast</label> 
+                    
+                        <input type="checkbox" id="lunch" class="checkbox"><label for="lunch">Lunch</label>
+                        <input type="checkbox" id="dinner" class="checkbox"><label for="dinner">Dinner</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="n1"><label>Quality of Food</label></td>
+                    <td>
+                        <input type="radio" name="a"><label>Excellent</label>
+                        <input type="radio" name="a"><label>Good</label>
+                        <input type="radio" name="a"><label>Fair</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="n1"><label>Ease of Ordering</label></td>
+                    <td>
+                        <input type="radio" name="a"><label>Excellent</label>
+                        <input type="radio" name="a"><label>Good</label>
+                        <input type="radio" name="a"><label>Fair</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="n1"><label>Cleanliness</label></td>
+                    <td>
+                        <input type="radio" name="a"><label>Excellent</label>
+                        
+                        <input type="radio" name="a"><label>Good</label>
+                        <input type="radio" name="a"><label>Fair</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="n1"><label>Overall Value</label></td>
+                    <td>
+                        <input type="radio" name="a"><label>Excellent</label>
+                        <input type="radio" name="a"><label>Good</label>
+                        <input type="radio" name="a"><label>Fair</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="n1"><label for="comment">Comment:</label></td>
+                    <td><textarea id="comment" rols="5" cols="30" required></textarea></td>
+                </tr>
+                
+                    
+                
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td><button>Submit</button></td>
+                </tr>
+            </table>
+        </form>
+        <div>
+       
+        
+            <p>You look beautiful when you Smile.<img src="smile.jpg" width="100px" height="100px"/></p>
+            Hover me
+        </div>
+                   
+    </body>
+</html>
